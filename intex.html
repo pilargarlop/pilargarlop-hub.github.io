@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Juego</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#descargar">Descargar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="seccion">
+        <h1>MI JUEGO</h1>
+        <p>Un shooter táctico 5v5 con habilidades únicas.</p>
+        <a href="#descargar" class="boton">JUGAR GRATIS</a>
+    </section>
+    <section id="sobre-nosotros" class="seccion">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos un equipo apasionado por los juegos competitivos y la acción.</p>
+    </section>
+
+    <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <p>Correo: contacto@mi-juego.com</p>
+    </section>
+
+
+    <section id="descargar" class="seccion">
+        <h2>Descargar</h2>
+        <p>Haz clic en el botón para comenzar la descarga del juego.</p>
+        <a href="#" class="boton">DESCARGAR</a>
+    </section>
+    <style>
+          margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    background-image: url ('https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf8efddf4d8ec9b77/61f0b7e247ab5f765a6efed0/VALORANT_2022_Ep4_ArticleHeader.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+header {
+    background-color: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff4655;
+}
+.seccion {
+    text-align: center;
+    padding: 120px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 60px;
+}
+.boton {
+    display: inline-block;
+    background-color: #ff4655;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.boton:hover
+    background-color: #ff6675;
+
+    </style>
+ 
+</body>
+</html>
